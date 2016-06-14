@@ -10,17 +10,17 @@
 import UIKit
 
 class CarouselController: FloatingCarousel {
-
-    @IBOutlet weak var viewOneLabel: UILabel!
     
     @IBOutlet var firstView: CarouselView!
     @IBOutlet var secondView: CarouselView!
+    @IBOutlet var thirdView: CarouselView!
+    @IBOutlet var fourthView: CarouselView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         NSBundle.mainBundle().loadNibNamed("CarouselViews", owner: self, options: nil)
-        self.addViewsToCarousel([firstView, secondView])
+        self.addViewsToCarousel([firstView, secondView, thirdView, fourthView])
     }
 
     override func didReceiveMemoryWarning() {

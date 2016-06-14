@@ -24,7 +24,7 @@ class FloatingCarousel: UIViewController {
             if counter == 0 {
                 view.frame = CGRectMake(carouselGap, carouselGap, screenWidth-carouselGap*2, screenHeight-carouselGap*2)
             } else {
-                view.frame = CGRectMake((screenWidth+carouselGap) * counter, carouselGap, screenWidth-carouselGap*2, screenHeight-carouselGap*2)
+                view.frame = CGRectMake(screenWidth*counter+carouselGap, carouselGap, screenWidth-carouselGap*2, screenHeight-carouselGap*2)
             }
         }
         if let _ = currentView {
@@ -55,7 +55,9 @@ class FloatingCarousel: UIViewController {
      //   print("Current Index \(currentIndex), x coord of view is: \(carouselViews[currentIndex].frame.origin.x)")
         
         UIView.animateWithDuration(0.5, animations: {
+            var counter:CGFloat = -1
             for view in self.carouselViews {
+                counter += 1
                 view.frame.origin.x -= screenWidth
             }
         }, completion: {
