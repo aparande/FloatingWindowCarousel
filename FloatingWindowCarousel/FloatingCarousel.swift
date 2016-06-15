@@ -41,7 +41,7 @@ class FloatingCarousel: UIViewController {
         }
     }
     
-    func next() {
+    @IBAction func next(sender: AnyObject) {
         currentIndex += 1
         if currentIndex == carouselViews.count {
             currentIndex -= 1
@@ -73,7 +73,7 @@ class FloatingCarousel: UIViewController {
         })
     }
     
-    func previous() {
+    @IBAction func previous(sender: AnyObject) {
         currentIndex -= 1
         if currentIndex == -1 {
             currentIndex += 1

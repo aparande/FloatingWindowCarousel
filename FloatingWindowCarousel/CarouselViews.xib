@@ -23,13 +23,13 @@
                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                     <state key="normal" title="Next"/>
                     <connections>
-                        <action selector="next:" destination="-1" eventType="touchUpInside" id="hR7-D6-2ao"/>
+                        <action selector="next:" destination="-1" eventType="touchUpInside" id="cSP-Q9-e8R"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZU-7j-rNO">
                     <rect key="frame" x="94" y="57" width="124" height="141"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
@@ -44,7 +44,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAz-Im-3yX">
                     <rect key="frame" x="94" y="57" width="124" height="141"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCt-w2-Zq0">
@@ -52,7 +52,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                     <state key="normal" title="Previous"/>
                     <connections>
-                        <action selector="previous:" destination="-1" eventType="touchUpInside" id="AqV-6m-EuQ"/>
+                        <action selector="previous:" destination="-1" eventType="touchUpInside" id="uFE-Bc-NDR"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEh-7T-nyf">
@@ -60,7 +60,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                     <state key="normal" title="Next"/>
                     <connections>
-                        <action selector="next:" destination="-1" eventType="touchUpInside" id="IjC-9Y-cSV"/>
+                        <action selector="next:" destination="-1" eventType="touchUpInside" id="7gK-Xv-GZC"/>
                     </connections>
                 </button>
             </subviews>
@@ -75,7 +75,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Three" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2A-6m-7aV">
                     <rect key="frame" x="94" y="57" width="124" height="141"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAo-do-OpN">
@@ -83,7 +83,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                     <state key="normal" title="Previous"/>
                     <connections>
-                        <action selector="previous:" destination="-1" eventType="touchUpInside" id="ETV-Sg-Y2H"/>
+                        <action selector="previous:" destination="-1" eventType="touchUpInside" id="1Jr-uc-4Co"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBh-Rt-z8c">
@@ -91,7 +91,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                     <state key="normal" title="Next"/>
                     <connections>
-                        <action selector="next:" destination="-1" eventType="touchUpInside" id="Bm1-iB-PGT"/>
+                        <action selector="next:" destination="-1" eventType="touchUpInside" id="EFD-gr-Mg3"/>
                     </connections>
                 </button>
             </subviews>
@@ -106,7 +106,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="View Four" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPE-x6-SX0">
                     <rect key="frame" x="94" y="57" width="124" height="141"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiS-Zu-P9g">
@@ -114,7 +114,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                     <state key="normal" title="Previous"/>
                     <connections>
-                        <action selector="previous:" destination="-1" eventType="touchUpInside" id="qW1-80-ojs"/>
+                        <action selector="previous:" destination="-1" eventType="touchUpInside" id="Fzg-hq-sM0"/>
                     </connections>
                 </button>
             </subviews>

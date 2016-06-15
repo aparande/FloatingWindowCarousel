@@ -27,10 +27,4 @@ class CarouselController: FloatingCarousel {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func next(sender: AnyObject) {
-        super.next()
-    }
-    @IBAction func previous(sender: AnyObject) {
-        super.previous()
-    }
 }
