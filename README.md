@@ -1,3 +1,7 @@
 # FloatingWindowCarousel
 
-This is a carousel for swift. It stores a bunch of views called CarouselViews, and by subclassing FloatingCarousel, you can switch between those views by hooking up certain buttons
+This is a carousel for swift. 
+
+To Use:
+1. Create custom views which are instances of CarouselViews
+2. Subclass Floating Carousel to hook up the views with buttons
